@@ -17,4 +17,6 @@ from(bucket: "metrics")
   |> yield(name: "rssi")
 ```
 
+Note that you may need to run the script with `sudo` to get `bssid`.
+
 Feel free to play with the script and the query to suit your needs.
